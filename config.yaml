@@ -1,0 +1,34 @@
+name: "MiniPro"
+#mode: "release"
+mode: "dev"
+port: 8080
+version: "v0.1.0"
+start_time: "2022-09-03"
+machine_id: 1
+cropid: "wxeecd4f1f44f855da"
+# corpsecret: "kyQNy-JaZh0c4vbo-XTJ8qRfNCAIYiCRM8y-KgqW2sA"
+# corpsecretWeb: "MT4_TyoU7iiA5GExU_T-Tm6DTvvyeQYIKOA_ftVMrUE"
+# corpsecretConfirm: "MApU9wrJKk_dB0NK8DqGVeW0sMThbvr84xeXBEoP8eE"
+msgtype: "text"
+agentid: 1000020
+
+authID: "1001"
+
+
+log:
+  level: "debug"
+  filename: "web_log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: localhost
+  port: 3306
+  user: "root"
+  password: ""
+  dbname: ""  
+  max_conns: 200
+  max_idle_conns: 50
+
+
