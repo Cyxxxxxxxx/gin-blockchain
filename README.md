@@ -17,6 +17,6 @@ A minimalist blockchain project based on the Gin framework
       <!--写入区块-->
 
     - ```go
-      ShowBlockchain
+      ShowBlockchain()
       ```
       <!--查看区块链-->
